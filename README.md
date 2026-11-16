@@ -1,6 +1,6 @@
 # matt.yaple.dev
 
-Personal site for Matt Yaple — single-page static site, robot-written HTML/CSS with human supervision, no build step.
+Personal site for Matt Yaple — single-page static site, ship's-computer-written HTML/CSS, live long and deploy, no build step.
 
 - **Hosting:** Cloudflare Workers (static assets), custom domain `matt.yaple.dev`
 - **Deploy:** push to `main` → GitHub Actions → `wrangler deploy` (`.github/workflows/deploy.yml`)
