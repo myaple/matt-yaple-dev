@@ -11,3 +11,8 @@ preview_urls = false
 directory = "./site"
 html_handling = "drop-trailing-slash"
 not_found_handling = "404-page"
+
+# Serve the personal site on its custom domain (auto-provisions DNS + cert on deploy).
+[[routes]]
+pattern = "matt.yaple.dev"
+custom_domain = true
