@@ -101,13 +101,6 @@ h1 .thin { display: block; font-style: italic; font-weight: 400; color: var(--am
 .btn-ghost { border-color: var(--line); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--amber); color: var(--amber); }
 
-.telemetry {
-  display: flex; gap: 2.5rem; margin-top: 3rem; flex-wrap: wrap;
-  border-top: 1px solid var(--line); padding-top: 1.5rem;
-}
-.telemetry div { font-family: var(--mono); }
-.telemetry .n { font-size: 1.5rem; color: var(--amber); }
-.telemetry .l { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; margin-top: 0.2rem; }
 
 /* ── section scaffolding ───────────────────────────── */
 section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
@@ -210,9 +203,7 @@ footer a { color: var(--muted); }
   .nav-links li:not(:last-child) { display: none; }
   .log-entry { grid-template-columns: 1fr; gap: 0.3rem; }
   .about-grid { grid-template-columns: 1fr; }
-  .telemetry { gap: 1.4rem; }
-}
-@media (prefers-reduced-motion: reduce) {
+  @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .eyebrow .blink { animation: none; }
   * { transition: none !important; }
