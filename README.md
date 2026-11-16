@@ -2,6 +2,7 @@
 
 Personal site for Matt Yaple — single-page static site, ship's-computer-written HTML/CSS, live long and deploy, no build step.
 
+The ship's-computer access log (how the site was built) lives at `/computer`.
 - **Hosting:** Cloudflare Workers (static assets), custom domain `matt.yaple.dev`
 - **Deploy:** push to `main` → GitHub Actions → `wrangler deploy` (`.github/workflows/deploy.yml`)
 - **Config:** `wrangler.toml` (assets-only, `workers_dev = false`, 404 via `404.html`)
